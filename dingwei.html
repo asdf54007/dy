@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定位</title>
+	<style>
+
+		.box {
+			height: 200px;
+			width: 400px;
+			background-color: #ccc;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			overflow: hidden;
+		}
+		.yuan1,.yuan2{
+			height: 100px;
+			width: 100px;
+			background: orange;
+			border-radius: 50%;
+			position: relative;
+		}
+		.yuan1 {
+			left: -50px;
+			top: -50px;
+		}
+		.yuan2 {
+			position:absolute;
+			right: -50px;
+			bottom: -50px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="yuan1">
+
+		</div>
+		<div class="yuan2">
+
+		</div>
+	</div>
+</body>
+</html>
